@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --textColor: white;
+    --bgColor: rgb(11, 9, 9);
+    --divColor:rgb(31, 31, 31);
+    --bioColor : rgb(192, 106, 7);
+    --cardColor:rgb(15, 15, 15);
+    --ongoing:orange;
+    --active:green;
+    --inactive:grey;
+    --deprecated:red;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    text-align: center; /* Center text content */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:var(--textColor);
+    background:var(--bgColor);
+    margin:0;
+    cursor: pointer;
+}
+.card{
+    background-color: rgb(59, 60, 60);
+    margin:20px;
+    padding:10px 25px;
+    border-radius: 5px;
+    box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute items with space around them */
+    align-items: center; /* Align items vertically center */
+    padding: 20px;
+}
+
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
